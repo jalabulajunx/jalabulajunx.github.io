@@ -45,9 +45,10 @@ more_content: | # this will include new lines to allow paragraphs
     - Tinker: Raspberry Pi 3 powered Music Server using Airsonic to stream my personal collection of 30k Hi-Res [FLAC/WAV]; A DIY NAS server using FreeNAS for my extensive Photos database
     - Public Relations and Social Media Chair (2016 - 2018) for Dayton Thamizh Sangam. Designed and developed the website. Managed promotions and advertising on social media; ideate events to keep the community engaged
     - Hobbies: Novice Cellist and [Photographer](http://radnus.smugmug.com/); silver league volleyball player; a fine cook of South Indian vegetarian dishes; authored a memoir of my college days
-    - Teacher: I teach grade 5/6 Math and English for remote schools in India via [eVidyaloka](https://www.evidyaloka.org/)
+    - Teacher: I teach grade 5/6 Math and English for <mark>remote schools in India</mark> via [eVidyaloka](https://www.evidyaloka.org/)
     - Active participant in <mark>Product Camps</mark>
     - To-dos: Cluster Pi to power music server with lossless streaming
+    - <mark>New</mark>: I sort of learnt markdown and jekyll while building this resume
 
 footnotes_title: Commentary
 footnotes_content: |
