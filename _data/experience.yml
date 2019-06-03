@@ -1,9 +1,75 @@
 - layout: left
-  company: The Boring Company
-  link: boringcompany.com
-  job_title: Senior Network System Administrator
-  dates: November 2017 - Present
+  company: Cognizant Technology Solutions
+  link: www.cognizant.com
+  job_title: Product Owner/Manager
+  dates: January 2013 - Present
   quote: >
-   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+   As a Product Owner/Manager, I consult and help clients solve their problems. Some of the things I have done so far.
   description: | # this will include new lines to allow paragraphs
-    Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+    - Create, Own and Manage Product features and requirements; with specialization on Public APIs (<mark>RESTful API</mark>, pluggable UI widgets, OpenWeb and Permalinking) – Delivered a solution for Corrections department that constitutes <mark>15%</mark> of total revenue
+    - Setup, develop and deliver <mark>migration strategies</mark> for large enterprise applications with revenue over <mark>$30M</mark>
+    - Articulate <mark>User Stories</mark> & Acceptance criteria, Business and Functional requirements, Use cases, Mock UIs and conduct reviews with all stakeholders
+    - <mark>Developer Evangelist</mark> - Charted <mark>Developer Experience</mark> for the Public APIs, actively help developers build applications on these APIs
+    - Create vision, scope, and roadmap along with the other Planners/Owners for a suite of products
+    - Analyze raw data/reports (<mark>45M</mark> user events) and drive product changes
+    - Help to identify existing solutions for newer problems and reduce the cost by <mark>75%</mark>
+    - Produce <mark>XML data requirements</mark> for bulk content delivery
+    - Designed and delivered <mark>marketing billboard</mark> to understand user’s reach
+    - Liaison between Architects/Development teams and Business
+    - Triage and prioritize defects with QA;
+    - Provide <mark>transition plans</mark> for legacy web service users
+    - <mark>Code/Script tools</mark> to interact with user data and understand trends
+- layout: left
+  company: Cognizant Technology Solutions
+  link: www.cognizant.com
+  job_title: Product Lead
+  dates: February 2012 - December 2012
+  quote: >
+   As a Product Lead, I lead a team of engineers to design and develop a Risk Solution.
+  description: | # this will include new lines to allow paragraphs
+    - SME - gather, understand and implement the requirements for a <mark>risk-monitoring</mark> tool for supply-management professionals – defined, scored with the categories of [“PESTLE”](https://en.wikipedia.org/wiki/PEST_analysis)
+    - Built a flash using Prezi presentation for the team members to understand the project
+    - Estimated and reviewed core areas and framework
+    - Imparted knowledge and <mark>code sense</mark> to team members
+    - Designed the <mark>framework</mark> for the application
+- layout: left
+  company: Cognizant Technology Solutions
+  link: www.cognizant.com
+  job_title: Business Analyst
+  dates: October 2011 - January 2012
+  quote: >
+   As a Business Analyst, I made an informed decision for an organization <mark>to not build</mark> a specific product.
+  description: | # this will include new lines to allow paragraphs
+    - Gathered and managed requirements; studied <mark>gap and feasibility</mark> for a system integration/migration project
+    - Worked on Design, brought out high and low-level designs
+    - Wrote <mark>sample implementation on Android</mark> against AtTask APIs as a Proof of Concept
+    - <mark>Saved $100k+</mark> by evaluating problems on the existing system; presented the business with changes to the existing process before integration/migration
+- layout: left
+  company: Cognizant Technology Solutions
+  link: www.cognizant.com
+  job_title: Senior Software Engineer and Scrum Master
+  dates: November 2009 - September 2011
+  quote: >
+   As a Sr. Dev. and a Scrum Master, the team and I designed, developed and delivered a Practice Management SaaS  application.
+  description: | # this will include new lines to allow paragraphs
+    - Played a <mark>variety of roles</mark> and portrayed ability to perform in each of the assigned role – Developer, Technical Lead and Scrum Master
+    - Indigenously thought, designed and developed a Drag & Drop feature (<mark>long before HTML5</mark>)
+- layout: left
+  company: NTT Data
+  link: www.nttdata.com
+  job_title: Project Manager (Jan’ 2009 – Oct’ 2009), Product Lead (Jan’ 2008 – Dec’ 2008), Business Analyst (Nov’ 2006 – Dec’ 2007) & Developer (May’ 2004 – Oct’ 2006)
+  dates: May 2004 - October 2009
+  quote: >
+   A summary of work/duties I performed from 2004 until 2009. Phew! 10 years ago!
+  description: | # this will include new lines to allow paragraphs
+    - Led <mark>migration strategies</mark> for legacy code to latest environments of Microsoft .NET framework
+    - Estimated and Planned <mark>development releases</mark>, patches and bug fixes for Enterprise Content Management solution
+    - Worked on <mark>LDAP wrapper</mark>; designed modules based on extensive research on <mark>image manipulation for TIFF metadata</mark> and other image conversions
+    - Estimated and Planned work; Translated Requirements, Onsite-offshore interaction, designed and implement the application.
+    - Interacting with the stakeholders to get a better understanding of client <mark>business processes</mark> and clarify business requirements.
+    - Identified Use cases from the requirements and wrote Software Architecture Document.
+    - Analyzed and authored a differential workflow between a <mark>Conventional and an Islamic bank</mark>; Gained insights on handling customer’s varied and demanding needs, showed flexibility while managing the application with growing needs
+    - <mark>Architected and Designed</mark> solutions for Check Processing system
+    - Prepared Test scripts and Reviewed Impact Analysis Documents
+    - Played a key role in <mark>Check-21</mark> migration project on Unisys Mainframes
+    - <mark>Self-taught</mark> on Unisys COBOL, VB6, Microsoft C# and Python

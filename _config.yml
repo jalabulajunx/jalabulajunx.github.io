@@ -6,6 +6,7 @@ repository: jalabulajunx/jalabulajunx.github.io
 name: Sundararajan Mohan
 title: Product Owner/Manager
 email: sundararajan.mohan@hotmail.com
+phone: +16474734505
 website: https://github.com/jalabulajunx
 
 # Social links
@@ -22,14 +23,14 @@ linkedin_username: sundararajanmohan
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/profile2.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hell, my name's Sundar and I'm a tech-savvy Product Manager who has: road mapped, gathered and managed product requirements; developed products, applications and learnt from their success and failures; focused on problem space by leveraging technical instincts and capabilities with business acumen and domain knowledge.
+  Hello, my name's Sundar and I'm a tech-savvy Product Manager who has: road mapped, gathered and managed product requirements; developed products, applications and learnt from their success and failures; focused on problem space by leveraging technical instincts and capabilities with business acumen and domain knowledge.
 
-  I am most skilled in: <mark>Product Management</mark>, <mark>Requirements Management</mark>, <mark>Analysis and Problem solving</mark>, and <mark>Domain Consulting</mark>.
+  I am most skilled in: <mark>Building Products</mark>, <mark>Requirements Management</mark>, <mark>Analysis and Problem solving</mark>, and <mark>Domain Consulting</mark>.
 
 # Projects Section
-# projects_title: Projects
+projects_title: f(Sundararajan Mohan)
 
 # Experience Section
 # experience_title: Experience
@@ -40,9 +41,9 @@ about_content: | # this will include new lines to allow paragraphs
 # More Section
 # more_title: A Little More About Me
 more_content: | # this will include new lines to allow paragraphs
-  Alongside my interests in Product Management some of my other interests and hobbies are:
+  Alongside my interests in Product Management, some of my other interests and hobbies are:
     - Tinker: Raspberry Pi 3 powered Music Server using Airsonic to stream my personal collection of 30k Hi-Res [FLAC/WAV]; A DIY NAS server using NAS4Free for my extensive Photos database
-    - Public Relations and Social Media Chair (2016 - 2018) for Dayton Thamizh Sangam. Designed and developed the website. Manage promotions and advertising on social media; ideate events to keep the community engaged
+    - Public Relations and Social Media Chair (2016 - 2018) for Dayton Thamizh Sangam. Designed and developed the website. Managed promotions and advertising on social media; ideate events to keep the community engaged
     - Hobbies: Novice Cellist and [Photographer](http://radnus.smugmug.com/); silver league volleyball player; a fine cook of South Indian vegetarian dishes; authored a memoir of my college days
     - Teacher: I teach grade 5/6 Math and English for remote schools in India via [eVidyaloka](https://www.evidyaloka.org/)
     - Active participant in <mark>Product Camps</mark>

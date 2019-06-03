@@ -1,8 +1,13 @@
 - layout: top-middle
-  name: Super awesome project
-  link: github.com/jalabulajunx
-  github: jalabulajunx/modern-resume-theme
+  #name: Super awesome project
+  #link: github.com/jalabulajunx
+  #github: jalabulajunx/modern-resume-theme
   quote: >
-    This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+    These are just here to make me feel better. Reminding me that I have not added many other things that the world had taught and yet to teach me.
   description: | # this will include new lines to allow paragraphs
-    I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+    - <b>Domain</b>: Legal, Information (Enterprise Content Management), Banking (Payments and Check Processing), Risk Monitoring
+    - <b>Product Management</b>: Scrubbing data, Business Analysis, Requirements Gathering, Use story and feature Authoring    
+    - <b>SDLC</b>: Agile [Scrum, SAFe, Lean, Kanban], Iterative, Waterfall
+    - <b>Products</b>: Unisys – Check Processing, InfoImage – e-Workflow; LexisNexis – Firm Manager, SmartWatch, CourtLink and LexisAdvance
+    - <b>Team Sizes</b>: Lead teams from 3 to 18 members
+    - <b>Languages and Tools</b>: C#, XAML, Expression Blend, .NET Framework 4.0, PRISM, Silverlight, ASP.NET, CSS, HTML, WCF, RESTful, Entity Framework, LINQ/lambda, VISUAL BASIC 6.0, C/C++, Python, Microsoft’s Team Foundation Server, Android/WP7 SDK, Pegasus’s Imaging toolkit, Infragistics NetAdvantage for .NET, Adobe RoboHelp 7 for HTML, Telerik RadControls for Silverlight, IBM Rational Suite:  Unisys customized ClearCase, ClearQuest and Unisys’s Rational Unified Process (based on Rational Method Composer) and RequisitePro, BluePrint, Microsoft Visio, VSTS User Stories/Features/Epics, Flow OS: Windows, Linux and Unisys Mainframe
