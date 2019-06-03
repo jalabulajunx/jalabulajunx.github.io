@@ -39,15 +39,23 @@ projects_title: f(Sundararajan Mohan)
 # educaton_title: Education
 
 # More Section
-# more_title: A Little More About Me
+more_title: The odd section
 more_content: | # this will include new lines to allow paragraphs
   Alongside my interests in Product Management, some of my other interests and hobbies are:
-    - Tinker: Raspberry Pi 3 powered Music Server using Airsonic to stream my personal collection of 30k Hi-Res [FLAC/WAV]; A DIY NAS server using NAS4Free for my extensive Photos database
+    - Tinker: Raspberry Pi 3 powered Music Server using Airsonic to stream my personal collection of 30k Hi-Res [FLAC/WAV]; A DIY NAS server using FreeNAS for my extensive Photos database
     - Public Relations and Social Media Chair (2016 - 2018) for Dayton Thamizh Sangam. Designed and developed the website. Managed promotions and advertising on social media; ideate events to keep the community engaged
     - Hobbies: Novice Cellist and [Photographer](http://radnus.smugmug.com/); silver league volleyball player; a fine cook of South Indian vegetarian dishes; authored a memoir of my college days
     - Teacher: I teach grade 5/6 Math and English for remote schools in India via [eVidyaloka](https://www.evidyaloka.org/)
     - Active participant in <mark>Product Camps</mark>
     - To-dos: Cluster Pi to power music server with lossless streaming
+
+footnotes_title: Commentary
+footnotes_content: |
+    <p style="font-size: 1.2em; text-align: justify;">
+      <a name="fn1">1.</a> The Client had migrated their primary platform applicaiton from legacy to latest technologies. While that was completed, the corections department was still on the legacy, as it needed very customized solutions on the new platform. The legacy correctsion solution was bringing in size-able revenue <mark>(15% of the total annual revenue)</mark>. So, we built a platform where UIs and underlying interactions can be built on the go and deployed at sites without a need for release.<br/><br/>
+      <a name="fn2">2.</a> Similar to corrections solution, another applicaiton residing on older technology needed a migration. The caveat: It had the <mark>highest ever NPS</mark> and also was bringing in <mark>annual revenue of over $30M</mark>. The migration strategy needed to be constructed carefully so that it does not impact the customers migrating, and also has the least impact on learning.<br/><br/>
+      <a name="fn3">3.</a> The new platform is a giant with <mark>millions of daily transaction</mark>. In order to understand the workflow of users and customers, I had built reports using <mark>Elastic DSL queries on Kibana</mark> platform. Also, in order to <mark>troubleshoot issues</mark> reported by customers, <mark>AWS logs</mark> were queried to undertand their problems.
+    </p>
 
 # Footer
 footer_show_references: true

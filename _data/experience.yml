@@ -6,12 +6,12 @@
   quote: >
    As a Product Owner/Manager, I consult and help clients solve their problems. Some of the things I have done so far.
   description: | # this will include new lines to allow paragraphs
-    - Create, Own and Manage Product features and requirements; with specialization on Public APIs (<mark>RESTful API</mark>, pluggable UI widgets, OpenWeb and Permalinking) – Delivered a solution for Corrections department that constitutes <mark>15%</mark> of total revenue
-    - Setup, develop and deliver <mark>migration strategies</mark> for large enterprise applications with revenue over <mark>$30M</mark>
+    - Create, Own and Manage Product features and requirements; with specialization on Public APIs (<mark>RESTful API</mark>, pluggable UI widgets, OpenWeb and Permalinking) – Delivered a solution for Corrections department that constitutes <mark>15%</mark> of total revenue <sup>[[1]](..#fn1)</sup>
+    - Setup, develop and deliver <mark>migration strategies</mark> for large enterprise applications with revenue over <mark>$30M</mark> <sup>[[2]](..#fn2)</sup>
     - Articulate <mark>User Stories</mark> & Acceptance criteria, Business and Functional requirements, Use cases, Mock UIs and conduct reviews with all stakeholders
     - <mark>Developer Evangelist</mark> - Charted <mark>Developer Experience</mark> for the Public APIs, actively help developers build applications on these APIs
     - Create vision, scope, and roadmap along with the other Planners/Owners for a suite of products
-    - Analyze raw data and build reports by writing queries on <mark>Kibana and AWS</mark> (<mark>45M</mark> user events) and drive product changes
+    - Analyze raw data and build reports by writing queries on <mark>Kibana and AWS</mark> (<mark>45M</mark> user events) and drive product changes <sup>[[3]](..#fn3)</sup>
     - Help to identify existing solutions for newer problems and reduce the cost by <mark>75%</mark>
     - Produce <mark>XML data requirements</mark> for bulk content delivery
     - Designed and delivered <mark>marketing billboard</mark> to understand user’s reach

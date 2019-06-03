@@ -26,6 +26,10 @@
 
             {%- include more.html -%}
 
+      {%- if site.footnotes_content -%}
+        {%- include footnotes.html -%}
+      {%- endif -%}
+
         </div>
     </main>
 
