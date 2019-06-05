@@ -57,8 +57,14 @@
 - layout: left
   company: NTT Data
   link: www.nttdata.com
-  job_title: Project Manager (Jan’ 2009 – Oct’ 2009), Product Lead (Jan’ 2008 – Dec’ 2008), Business Analyst (Nov’ 2006 – Dec’ 2007) & Developer (May’ 2004 – Oct’ 2006)
-  dates: May 2004 - October 2009
+  job_title: Project Manager
+  dates: January 2009 – October 2009
+  job_title: Product Lead
+  dates: January 2008 – December 2008
+  job_title: Business Analyst
+  dates: November 2006 – December 2007
+  job_title: Developer
+  dates: May 2004 - October 2006
   quote: >
    A summary of work/duties I performed from 2004 until 2009. Phew! 10 years ago!
   description: | # this will include new lines to allow paragraphs
