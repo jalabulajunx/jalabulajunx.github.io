@@ -39,12 +39,12 @@
   job_title: Business Analyst
   dates: October 2011 - January 2012
   quote: >
-   As a Business Analyst, I made an informed decision for an organization <mark>to not build</mark> a specific product and retain/reuse what's available.
+   As a Business Analyst, I made an informed decision for an organization <mark>to not build<sup>*</sup></mark> a specific product and retain/reuse what's available.
   description: | # this will include new lines to allow paragraphs
     - Gathered and managed requirements; studied <mark>gap and feasibility</mark> for a system integration/migration project
     - Worked on Design, brought out high and low-level designs
     - Wrote <mark>sample implementation on Android</mark> against AtTask APIs as a Proof of Concept
-    - <mark>Saved $100k+</mark> by evaluating problems on the existing system; presented the business with changes to the existing process before integration/migration
+    - <sup>*</sup><mark>Saved $100k+</mark> by evaluating problems on the existing system; presented the business with changes to the existing process before integration/migration
 - layout: left
   company: Cognizant Technology Solutions
   link: www.cognizant.com
