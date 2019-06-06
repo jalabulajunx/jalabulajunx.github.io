@@ -6,20 +6,19 @@
   quote: >
    As a Product Owner/Manager, I consult and help clients solve their problems. Some of the things I have done so far.
   description: | # this will include new lines to allow paragraphs
-    - Create, Own and Manage Product features and requirements; with specialization on Public APIs (<mark>RESTful API</mark>, pluggable UI widgets, OpenWeb and Permalinking) – Delivered a solution for Corrections department that constitutes <mark>15%</mark> of total revenue<sup>[[1]](..#fn1)</sup>
-    - Setup, develop and deliver <mark>migration strategies</mark> for large enterprise applications with revenue over <mark>$30M</mark><sup>[[2]](..#fn2)</sup>
+    - Create vision, scope, and roadmap along with the other Planners/Owners for a suite of products and align them with <mark>OKRs</mark>
+    - Manage Product features and requirements; with specialization on Public APIs (<mark>RESTful API</mark>, pluggable UI widgets, OpenWeb and Permalinking); Using the concepts of pluggable UI widgets, delivered a solution for Corrections department that brings in revenue of <mark>$3.5M</mark><sup>[[1]](..#fn1)</sup>
+    - Analyze <mark>raw data, create metrics and build reports</mark> by writing queries on <mark>Kibana and AWS</mark> (<mark>45M</mark> user events<sup>[[2]](..#fn2)</sup>) and drive product changes
+    - <mark>Code/Script tools/browser extensions</mark> to interact with user data and understand trends
+    - Designed and delivered <mark>marketing billboard</mark> to understand user’s reach
+    - Whole Product <mark>migration strategies</mark> for large enterprise applications with revenue over <mark>$30M</mark><sup>[[3]](..#fn3)</sup> and provide <mark>transition plans</mark> for legacy web service users
     - Articulate <mark>User Stories</mark> & Acceptance criteria, Business and Functional requirements, Use cases, Mock UIs and conduct reviews with all stakeholders
     - <mark>Developer Evangelist</mark> - Charted <mark>Developer Experience</mark> for the Public APIs, actively help developers build applications on these APIs
-    - Create vision, scope, and roadmap along with the other Planners/Owners for a suite of products
-    - Analyze <mark>raw data, create metrics and build reports</mark> by writing queries on <mark>Kibana and AWS</mark> (<mark>45M</mark> user events) and drive product changes<sup>[[3]](..#fn3)</sup>
-    - Help to identify existing solutions for newer problems and reduce the cost by <mark>75%</mark><sup>[[4]](..#fn4)</sup>
     - Produce <mark>XML data requirements</mark> for bulk content delivery
-    - Designed and delivered <mark>marketing billboard</mark> to understand user’s reach
     - Liaison between Architects/Development teams and Business
+    - Reduce cost by identifying existing solutions for newer problems at some instances reduced the cost up to <mark>75%</mark><sup>[[4]](..#fn4)</sup>
     - Triage and prioritize defects with QA;
-    - Provide <mark>transition plans</mark> for legacy web service users
-    - <mark>Code/Script tools/browser extensions</mark> to interact with user data and understand trends
-    - Update weekly release <mark>changelog</mark> on the wiki for external interfacing
+    - Maintain a weekly release <mark>changelog</mark> on the wiki for external interfacing
 - layout: left
   company: Cognizant Technology Solutions
   link: www.cognizant.com
@@ -29,10 +28,9 @@
    As a Product Lead, I lead a team of engineers to design and develop a Risk Solution.
   description: | # this will include new lines to allow paragraphs
     - SME - gather, understand and implement the requirements for a <mark>risk-monitoring</mark> tool for supply-management professionals – defined, scored with the categories of [“PESTLE”](https://en.wikipedia.org/wiki/PEST_analysis)
-    - Built a flash using Prezi presentation for the team members to understand the project
-    - Estimated and reviewed core areas and framework
-    - Imparted knowledge and <mark>code sense</mark> to team members
-    - Designed the <mark>framework</mark> for the application
+    - Estimated, Designed and Reviewed <mark>core areas and framework</mark>
+    - Imparted knowledge on <mark>clean code</mark> to team members
+    - Built a Prezi presentation for the team members to understand the project
 - layout: left
   company: Cognizant Technology Solutions
   link: www.cognizant.com
@@ -44,7 +42,7 @@
     - Gathered and managed requirements; studied <mark>gap and feasibility</mark> for a system integration/migration project
     - Worked on Design, brought out high and low-level designs
     - Wrote <mark>sample implementation on Android</mark> against AtTask APIs as a Proof of Concept
-    - <mark>Saved $100k+</mark> by evaluating problems on the existing system; presented the business with changes to the existing process before integration/migration<sup>[[5]](..#fn5)</sup>
+    - <mark>Saved $100k+</mark><sup>[[5]](..#fn5)</sup> by evaluating problems on the existing system; presented the business with changes to the existing process before integration/migration
 - layout: left
   company: Cognizant Technology Solutions
   link: www.cognizant.com
