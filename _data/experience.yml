@@ -6,7 +6,7 @@
   quote: >
    As a Product Owner/Manager, I consult and help clients solve their problems. Some of the things I have done so far.
   description: | # this will include new lines to allow paragraphs
-  <h4>80% of my time,</h4> 
+<b>80% of my time,</b> 
     - Create vision, scope, and roadmap along with other Product Planners/Managers/Owners for a suite of products and align them with <mark>OKRs</mark>
     - Manage Product features and requirements; with specialization on Public APIs (<mark>RESTful API</mark>, pluggable UI widgets, OpenWeb and Permalinking); Using the concepts of pluggable UI widgets, delivered a solution for Corrections department that brings in revenue of <mark>$3.5M</mark><sup>[[1]](..#fn1)</sup>
     - Analyze <mark>raw data, create metrics and build reports</mark> by writing queries on <mark>Kibana and AWS</mark> (<mark>45M</mark> user events<sup>[[2]](..#fn2)</sup>) and drive product changes
@@ -15,7 +15,7 @@
     - Whole Product <mark>migration strategies</mark> for large enterprise applications with revenue over <mark>$30M</mark><sup>[[3]](..#fn3)</sup> and provide <mark>transition plans</mark> for legacy web service users
     - Articulate <mark>User Stories</mark> & Acceptance criteria, Business and Functional requirements, Use cases, Mock UIs and conduct reviews with all stakeholders
     - Reduce cost by identifying existing solutions for newer problems and at some instances reduced the cost up to <mark>75%</mark><sup>[[4]](..#fn4)</sup>
-  <h4>20% of my time,</h4>
+<b>20% of my time,</b>
     - <mark>Developer Evangelist</mark> - Charted <mark>Developer Experience</mark> for the Public APIs, actively help developers build applications on these APIs
     - Produce <mark>XML data requirements</mark> for bulk content delivery
     - Maintain a weekly release <mark>changelog</mark> on the wiki for external interfacing
