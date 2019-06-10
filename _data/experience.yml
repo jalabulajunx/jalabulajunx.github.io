@@ -8,7 +8,7 @@
   description: | # this will include new lines to allow paragraphs
     <h5>80% of my time</h5>
     - Create vision, scope, and roadmap along with other Product Managers for a suite of products and align them with <mark>OKRs</mark>
-    - Manage Product features and requirements; with specialization on Public APIs (<mark>RESTful API</mark>, pluggable UI widgets, OpenWeb and Permalinking); Using the concepts of pluggable UI widgets, delivered a solution for Corrections department that brings in <mark>revenue of $3.5M</mark><sup>[[1]](..#fn1)</sup>
+    - Manage Product features and requirements; with specialization on Public APIs (<mark>RESTful API</mark>, pluggable UI widgets, OpenWeb and Permalinking); Using the concepts of pluggable UI widgets, delivered a solution for Corrections department that brings in a <mark>revenue of $3.5M</mark><sup>[[1]](..#fn1)</sup>
     - Analyze <mark>raw data, create metrics and build reports</mark> by writing queries on <mark>Kibana and AWS</mark> (<mark>45M</mark> user events<sup>[[2]](..#fn2)</sup>) and drive product changes
     - <mark>Code/Script tools/browser extensions</mark> to interact with user data and understand trends; For instance, I <mark>automated</mark> by scripting the workflow of feature creation by writing specific rules set on Microsoft Flow that monitors Outlook Mail, thus ensuring that a requirement isn't missed and <mark>reduces the time spent</mark> in documenting requirements
     - Designed and delivered <mark>marketing billboard</mark> product to understand user’s reach
@@ -51,7 +51,7 @@
   job_title: Senior Software Engineer and Scrum Master
   dates: November 2009 - September 2011
   quote: >
-   At the previous organization, with constant promotions, I was elevated to the level of a Proj. Manager, and it was not my forte, so I quit the organization and joined as a Developer in a different firm. As a Sr. Dev. and a Scrum Master, the team and I designed, developed and delivered a Practice Management SaaS  application.
+   At the previous organization, with constant promotions, I was elevated to the level of a Proj. Manager and it was not my forte, so I quit the organization and joined as a Developer in a different firm. As a Sr. Dev. and a Scrum Master, the team and I designed, developed and delivered a Practice Management SaaS  application.
   description: | # this will include new lines to allow paragraphs
     - Played a <mark>variety of roles</mark> and portrayed ability to perform in each of the assigned role – Developer, Technical Lead and Scrum Master
     - Indigenously thought, designed and developed a file Drag & Drop feature (<mark>long before HTML5</mark>) on a web application using Silverlight which greatly improved the usability by reducing the number of clicks from 6 to just 1.
