@@ -17,6 +17,7 @@ facebook_username: sundararajan.mohan
 # flickr_username: jekyll
 # instagram_username: chillwildlife
 linkedin_username: sundararajanmohan
+smugmug_username: radnus
 # pinterest_username: jekyll
 # youtube_username: globalmtb
 # googleplus_username: +jekyll
@@ -25,11 +26,11 @@ linkedin_username: sundararajanmohan
 # about_title: About Me
 about_profile_image: images/profile2.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hello, I am a tech-savvy Product Manager who focuses on problem space.  
-  
-  How do I do it? By being the one with problem rather than playing a role.
-  
-  "Why?" - Splitting the atom until nothingness. 
+  Hello, I am a tech-savvy Product Manager who focuses on problem space.
+
+  "How?" - By being the one with the problem rather than playing a role.
+
+  "Why?" - Splitting the atom until nothingness.
 
   I am most skilled in: <mark>Build and Maintain Products</mark>, <mark>Requirements Management</mark>, <mark>Analysis and Problem solving</mark>, and <mark>Domain consulting on Legal Research and Enterprise Content Management</mark>. Most importantly, I build <mark>trust</mark> and establish a <mark>lasting relationship</mark> with clients - without which I would <mark>fail</mark> in many aspects.
 
