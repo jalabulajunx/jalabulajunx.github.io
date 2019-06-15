@@ -27,13 +27,9 @@ smugmug_username: radnus
 # about_title: About Me
 about_profile_image: images/profile2.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hello, I am a tech-savvy Product Manager who focuses on problem space.
-
-  "How?" - By being the one with the problem rather than playing a role.
-
-  "Why?" - Splitting the atom until nothingness.
-
-  I am most skilled in: <mark>Build and Maintain Products</mark>, <mark>Requirements Management</mark>, <mark>Analysis and Problem solving</mark>, and <mark>Domain consulting on Legal Research and Enterprise Content Management</mark>. Most importantly, I build <mark>trust</mark> and establish a <mark>lasting relationship</mark> with clients - without which I would <mark>fail</mark> in many aspects.
+Hello! I love problems and the non-linear journey it takes to get to solutions. Building products take a village and I enjoy the process of bringing my stakeholders and team onboard, to buy into the customer problems and the strategy to collectively solve it. 
+I dabble in code every chance I get. While I let <mark>numbers</mark> guide me through key <mark>product decisions</mark>, I fall to <mark>customer conversations</mark> to spark my instincts. 
+Outside of building products, my professional years have honed my skills in Domain consulting on Legal Research and Enterprise Content Management.
 
 # Projects Section
 projects_title: f(Sundararajan Mohan)
