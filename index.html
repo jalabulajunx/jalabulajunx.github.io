@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sundararajan Mohan</title>
+  <meta name="description" content="AI product manager who still builds. Legal AI at LexisNexis Canada by day; open-source tools, hardware and civic tech for an audience of one (or a few kids) the rest of the time.">
+  <meta property="og:title" content="Sundararajan Mohan">
+  <meta property="og:description" content="AI product manager who still builds.">
+  <meta property="og:type" content="profile">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231d3a34'/%3E%3Ctext x='16' y='21.5' text-anchor='middle' font-family='Georgia,serif' font-size='15' fill='%23f3efe6'%3ESM%3C/text%3E%3C/svg%3E">
+  <style>
+    :root {
+      --bg: #f6f3ec; --raise: #fffdf8; --text: #1b1a17; --muted: #66625a; --faint: #9a958a;
+      --line: #e2ddd1; --accent: #1f6f5c; --accent-soft: rgb(31 111 92 / .1); --warm: #c2551f;
+      --serif: "Fraunces", Georgia, "Times New Roman", serif;
+      --sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      --mono: "JetBrains Mono", ui-monospace, Menlo, Consolas, monospace;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) {
+        --bg: #111311; --raise: #181b19; --text: #ece8de; --muted: #9a968c; --faint: #66635c;
+        --line: #272b28; --accent: #5cc4a6; --accent-soft: rgb(92 196 166 / .12); --warm: #f08a52;
+      }
+    }
+    :root[data-theme="dark"] {
+      --bg: #111311; --raise: #181b19; --text: #ece8de; --muted: #9a968c; --faint: #66635c;
+      --line: #272b28; --accent: #5cc4a6; --accent-soft: rgb(92 196 166 / .12); --warm: #f08a52;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.65 var(--sans); -webkit-font-smoothing: antialiased; }
+    a { color: var(--text); text-decoration-color: var(--accent); text-decoration-thickness: 1.5px; text-underline-offset: 3px; }
+    a:hover { color: var(--accent); }
+    :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+    .wrap { max-width: 960px; margin: 0 auto; padding: 0 24px; }
+    @media (max-width: 560px) { .wrap { padding: 0 16px; } }
+    .muted { color: var(--muted); }
+    .mono { font-family: var(--mono); }
+
+    header.top { display: flex; align-items: center; gap: 16px; padding: 20px 0; }
+    .mark { width: 38px; height: 38px; border-radius: 10px; background: var(--accent); color: var(--bg); display: grid; place-items: center; font: 600 15px/1 var(--serif); letter-spacing: .02em; flex: none; }
+    nav.links { margin-left: auto; display: flex; gap: 18px; font-size: 14px; flex-wrap: wrap; justify-content: flex-end; }
+    nav.links a { color: var(--muted); text-decoration: none; }
+    nav.links a:hover { color: var(--text); }
+    @media (max-width: 640px) { nav.links { display: none; } }
+    .scheme { display: flex; border: 1px solid var(--line); border-radius: 999px; padding: 2px; }
+    .scheme button { border: 0; background: none; color: var(--faint); font: 500 11px/1 var(--mono); padding: 6px 9px; border-radius: 999px; cursor: pointer; }
+    .scheme button[aria-pressed="true"] { color: var(--text); background: var(--line); }
+    @media (max-width: 640px) { .scheme { margin-left: auto; } }
+
+    .hero { padding: 56px 0 40px; }
+    .kicker { font: 500 12px/1.4 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--accent); margin: 0 0 16px; }
+    h1 { font: 600 clamp(38px, 6.4vw, 64px)/1.04 var(--serif); letter-spacing: -.02em; margin: 0 0 20px; }
+    .lede { font-size: clamp(18px, 2vw, 21px); max-width: 38em; margin: 0 0 14px; }
+    .hero p.sub { color: var(--muted); max-width: 40em; margin: 0 0 26px; }
+    .contact { display: flex; flex-wrap: wrap; gap: 10px; }
+    .chip { display: inline-flex; align-items: center; gap: 8px; padding: 9px 15px; border: 1px solid var(--line); border-radius: 999px; background: var(--raise); text-decoration: none; font-size: 14px; font-weight: 500; }
+    .chip:hover { border-color: var(--accent); color: var(--text); }
+    .chip.primary { background: var(--text); color: var(--bg); border-color: var(--text); }
+    .chip.primary:hover { background: var(--accent); border-color: var(--accent); color: var(--bg); }
+
+    section { padding: 40px 0; border-top: 1px solid var(--line); }
+    h2 { font: 600 clamp(24px, 3vw, 30px)/1.2 var(--serif); letter-spacing: -.01em; margin: 0 0 8px; }
+    .section-note { color: var(--muted); margin: 0 0 26px; max-width: 42em; }
+    h3 { font: 600 17px/1.3 var(--sans); margin: 0 0 6px; letter-spacing: -.005em; }
+
+    .principles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+    @media (max-width: 760px) { .principles { grid-template-columns: 1fr; } }
+    .principle { padding: 20px; background: var(--raise); border: 1px solid var(--line); border-radius: 14px; }
+    .principle .n { font: 500 12px/1 var(--mono); color: var(--warm); display: block; margin-bottom: 12px; }
+    .principle p { margin: 0; color: var(--muted); font-size: 15px; }
+
+    .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+    @media (max-width: 720px) { .grid { grid-template-columns: 1fr; } }
+    .card { padding: 20px 20px 18px; background: var(--raise); border: 1px solid var(--line); border-radius: 14px; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+    .card.feature { grid-column: 1 / -1; }
+    .card p { margin: 0; color: var(--muted); font-size: 15px; }
+    .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 2px; }
+    .tag { font: 500 11px/1 var(--mono); padding: 5px 8px; border-radius: 6px; background: var(--accent-soft); color: var(--accent); }
+    .tag.year { background: transparent; border: 1px solid var(--line); color: var(--muted); }
+    .card .go { margin-top: auto; padding-top: 6px; display: flex; gap: 16px; flex-wrap: wrap; font-size: 14px; font-weight: 500; }
+
+    .group-title { font: 500 12px/1 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 30px 0 14px; }
+    .group-title:first-of-type { margin-top: 0; }
+
+    .timeline { list-style: none; margin: 0; padding: 0; }
+    .timeline li { display: grid; grid-template-columns: 130px minmax(0, 1fr); gap: 20px; padding: 18px 0; border-bottom: 1px dashed var(--line); }
+    .timeline li:last-child { border-bottom: 0; }
+    .timeline .when { font: 500 13px/1.6 var(--mono); color: var(--muted); }
+    .timeline p { margin: 4px 0 0; color: var(--muted); font-size: 15px; }
+    .timeline ul { margin: 8px 0 0; padding-left: 18px; color: var(--muted); font-size: 15px; }
+    .timeline ul li { display: list-item; padding: 2px 0; border: 0; }
+    @media (max-width: 560px) { .timeline li { grid-template-columns: 1fr; gap: 4px; } }
+
+    .cols { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; }
+    @media (max-width: 720px) { .cols { grid-template-columns: 1fr; } }
+    .plain { margin: 0; padding-left: 18px; color: var(--muted); }
+    .plain li { padding: 3px 0; }
+    .plain strong { color: var(--text); font-weight: 600; }
+
+    footer { padding: 30px 0 48px; border-top: 1px solid var(--line); color: var(--faint); font-size: 14px; display: flex; flex-wrap: wrap; gap: 8px 20px; justify-content: space-between; }
+    footer a { color: var(--muted); }
+  </style>
+  <script>
+    try { const t = localStorage.getItem("sm-scheme"); if (t === "light" || t === "dark") document.documentElement.dataset.theme = t; } catch {}
+  </script>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <span class="mark" aria-hidden="true">SM</span>
+      <nav class="links" aria-label="Sections">
+        <a href="#work">Work</a>
+        <a href="#built">Built</a>
+        <a href="#path">Path</a>
+        <a href="#community">Community</a>
+      </nav>
+      <div class="scheme" role="group" aria-label="Colours">
+        <button type="button" data-scheme="auto">Auto</button>
+        <button type="button" data-scheme="light">Light</button>
+        <button type="button" data-scheme="dark">Dark</button>
+      </div>
+    </header>
+
+    <main>
+      <div class="hero">
+        <p class="kicker">Ontario, Canada · Product · AI · Builder</p>
+        <h1>Sundararajan Mohan</h1>
+        <p class="lede">AI product manager who still builds. I started as an engineer on banking payment systems,
+          and two decades later I still write the first version myself.</p>
+        <p class="sub">By day I build AI products for legal research at LexisNexis Canada. The rest of the time I
+          build things for an audience of one, or a few kids: a Tamil tutor for my son, an intercom for his
+          friends, an open-source keypad that answers coding agents from across the house.</p>
+        <div class="contact">
+          <a class="chip primary" href="https://www.sundaradnus.ca/">sundaradnus.ca</a>
+          <a class="chip" href="https://www.linkedin.com/in/sundararajanmohan/">LinkedIn</a>
+          <a class="chip" href="https://radnus.substack.com/">Writing on Substack</a>
+          <a class="chip" href="https://github.com/jalabulajunx">GitHub</a>
+          <a class="chip" href="mailto:sundararajan.mohan@hotmail.com">Email</a>
+        </div>
+      </div>
+
+      <section id="work">
+        <h2>How I work</h2>
+        <p class="section-note">Senior Product Manager at LexisNexis Canada (RELX) since 2020, shipping LLM products inside a
+          regulated domain where a wrong answer has consequences.</p>
+        <div class="principles">
+          <div class="principle"><span class="n">01</span><h3>Build the first version</h3><p>I prototype the agentic workflow myself before asking anyone to fund it, so the conversation starts from something that runs.</p></div>
+          <div class="principle"><span class="n">02</span><h3>Measure before scaling</h3><p>Held-out data and blind evaluation come before rollout. If it only works on the demo, it doesn't work.</p></div>
+          <div class="principle"><span class="n">03</span><h3>The expert keeps the call</h3><p>I design the review step so the lawyer, editor or teacher signs off. Two hands on the wheel.</p></div>
+        </div>
+      </section>
+
+      <section id="built">
+        <h2>Things I've built</h2>
+        <p class="section-note">Most of these started because someone close to me needed them. Many were built with AI
+          coding agents; the product decisions, the testing and the "no, not like that" were mine.</p>
+
+        <p class="group-title">Recent</p>
+        <div class="grid">
+          <article class="card feature">
+            <h3>Kn°End</h3>
+            <p>An open-source, cross-OS shortcut keypad and pager on inexpensive ESP32-S3 touch boards. The keys follow
+              the app, website or terminal program in front of you on Linux, macOS and Windows; an AI drafts keys for apps
+              nobody has set up; Claude Code's questions can be answered from another room; the board shows your speaker
+              notes while you present. Built with Tom Grabowski for the Build North hackathon, enclosure by my son Skanda.</p>
+            <div class="tags"><span class="tag year">2026</span><span class="tag">C · ESP-IDF</span><span class="tag">Rust</span><span class="tag">Bluetooth · Wi-Fi</span><span class="tag">AI agents</span></div>
+            <div class="go"><a href="https://jalabulajunx.github.io/knoend/">Project page</a><a href="https://github.com/jalabulajunx/knoend">Code</a><a href="https://youtu.be/d6Set7CRCjE">Demo video</a></div>
+          </article>
+          <article class="card">
+            <h3>Sidebar</h3>
+            <p>A private voice intercom for a small circle of kids: tap a friend's name and their unit rings. Encrypted audio,
+              outbound-only devices, over-the-air updates with consent. The requirement was "nothing listens at anyone's
+              house", so the monitoring dashboard has nowhere to keep audio, and tests enforce it.</p>
+            <div class="tags"><span class="tag year">2026</span><span class="tag">ESP32-S3</span><span class="tag">C</span><span class="tag">Hardware</span></div>
+            <div class="go"><a href="https://github.com/jalabulajunx/sidebar">Code</a></div>
+          </article>
+          <article class="card">
+            <h3>WebBridge</h3>
+            <p>Turns any website into MCP tools without writing code or needing the site's cooperation: a Chrome extension
+              plus an MCP server that gives Claude and other clients authenticated access to sites that have no API.</p>
+            <div class="tags"><span class="tag year">2026</span><span class="tag">MCP</span><span class="tag">Chrome extension</span></div>
+            <div class="go"><a href="https://github.com/jalabulajunx/WebBridge">Code</a></div>
+          </article>
+          <article class="card">
+            <h3>ThunaiĀciri AI</h3>
+            <p>A multi-agent co-pilot for special-education teachers in India. The teacher reviews and steers every worksheet
+              in a chat, so a draft that took half an hour now takes moments. Designed with a veteran special-education
+              teacher.</p>
+            <div class="tags"><span class="tag">Google ADK</span><span class="tag">Gemini</span><span class="tag">Human in the loop</span></div>
+            <div class="go"><a href="https://thunaiaciri-ai.sundaradnus.ca/">Try it</a></div>
+          </article>
+          <article class="card">
+            <h3>Stouffville Bylaws AI</h3>
+            <p>A community project: ask a plain question, get an answer grounded in the town's municipal bylaw PDFs.
+              Accuracy was rated by the bylaw officers themselves, and I presented it to the Mayor.</p>
+            <div class="tags"><span class="tag">RAG</span><span class="tag">Civic tech</span></div>
+          </article>
+        </div>
+
+        <p class="group-title">For learning, mostly my son's</p>
+        <div class="grid">
+          <article class="card">
+            <h3>Tamil Assistant</h3>
+            <p>Helps a young learner read Tamil textbooks with his grandmother: contextual translations and explanations right
+              beside the PDF.</p>
+            <div class="tags"><span class="tag">GTK</span><span class="tag">Gemini</span><span class="tag">Linux</span></div>
+            <div class="go"><a href="https://github.com/jalabulajunx/tamil-assistant">Code</a></div>
+          </article>
+          <article class="card">
+            <h3>French Assistant</h3>
+            <p>A Chrome extension for reading French textbooks: key vocabulary, accent explanations, and pronunciation guides in
+              English and Tamil.</p>
+            <div class="tags"><span class="tag">Chrome extension</span><span class="tag">Gemini</span><span class="tag">TTS</span></div>
+            <div class="go"><a href="https://github.com/jalabulajunx/french-assistant">Code</a></div>
+          </article>
+          <article class="card">
+            <h3>Your World Last Week</h3>
+            <p>Weekly news for Canadian students in grades 5 to 7, written to be understood rather than skimmed.</p>
+            <div class="tags"><span class="tag">Publishing</span><span class="tag">AI-assisted</span></div>
+            <div class="go"><a href="https://ywlw.sundaradnus.ca/">Read it</a></div>
+          </article>
+          <article class="card">
+            <h3>German DaF Assistant</h3>
+            <p>A teaching tool for German-as-a-foreign-language teachers, born from a teacher's spreadsheet troubles.</p>
+            <div class="tags"><span class="tag">Education</span><span class="tag">AI</span></div>
+            <div class="go"><a href="https://teaching-german.sundaradnus.ca/">Try it</a></div>
+          </article>
+          <article class="card">
+            <h3>Electricity Explorer &amp; Cellular Sleep Voyage</h3>
+            <p>Interactive lessons for curious ten-year-olds: how electricity works, and a "Fantastic Voyage" through cells to
+              see why we need sleep.</p>
+            <div class="tags"><span class="tag">Web</span><span class="tag">3D</span><span class="tag">STEM</span></div>
+            <div class="go"><a href="https://github.com/jalabulajunx/Basic-Electronics">Electricity Explorer</a><a href="https://github.com/jalabulajunx/cellular-sleep-voyage-2">Sleep Voyage</a></div>
+          </article>
+          <article class="card">
+            <h3>Family Chat</h3>
+            <p>A private, family-friendly chat app over local models in LM Studio. Built by "hiring" a developer inside Claude for a
+              month.</p>
+            <div class="tags"><span class="tag">Local LLMs</span><span class="tag">Privacy</span></div>
+            <div class="go"><a href="https://github.com/jalabulajunx/LMStudioWrapper">Code</a></div>
+          </article>
+        </div>
+
+        <p class="group-title">At work, in brief</p>
+        <div class="grid">
+          <article class="card">
+            <h3>Lexis+ AI</h3>
+            <p>Defined the MVP and roadmap for Lexis+ AI in Canada and led Lexis+ AI Security in the US. Wrote the AI trust,
+              security and privacy principles that sales now reach for first.</p>
+            <div class="tags"><span class="tag">LLM products</span><span class="tag">Legal</span></div>
+          </article>
+          <article class="card">
+            <h3>Halsbury's Rebuilder</h3>
+            <p>A self-initiated agentic workflow that finds every statute cited across a legal encyclopedia, checks it for
+              amendments and writes update reports editors act on. Four generations, from manual to LLM workflow.</p>
+            <div class="tags"><span class="tag">Agentic workflow</span><span class="tag">Editorial</span></div>
+          </article>
+          <article class="card">
+            <h3>Personal Steno</h3>
+            <p>A context-aware second brain over a knowledge graph of my work: it brings up the right context during live
+              meetings. The method was first proven on a historian's complete archive.</p>
+            <div class="tags"><span class="tag">Knowledge graph</span><span class="tag">Agents · skills</span></div>
+          </article>
+          <article class="card">
+            <h3>Quantums AI and retrieval research</h3>
+            <p>A claims-valuation proof of concept validated on a blind holdout before any scale-up, and benchmarks of
+              document-chunking strategies on a legal corpus that informed platform decisions.</p>
+            <div class="tags"><span class="tag">Evaluation</span><span class="tag">RAG</span></div>
+          </article>
+        </div>
+
+        <p class="group-title">Small tools</p>
+        <div class="grid">
+          <article class="card">
+            <h3>fooyin plugins</h3>
+            <p>Chromecast output, a metadata tagger and a format converter for the fooyin music player, because I wanted them.</p>
+            <div class="go"><a href="https://github.com/jalabulajunx/fooyin_chromecast">Chromecast</a><a href="https://github.com/jalabulajunx/fooyin_tagger">Tagger</a><a href="https://github.com/jalabulajunx/fooyin_converter">Converter</a></div>
+          </article>
+          <article class="card">
+            <h3>Travel Chronicle</h3>
+            <p>A New Zealand journey, mapped and narrated like a film.</p>
+            <div class="go"><a href="http://travel.sundaradnus.ca/">Relive the journey</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="path">
+        <h2>The path so far</h2>
+        <p class="section-note">India, the US and Canada. The full interactive version, with an AI sidekick to answer questions, is on
+          <a href="https://www.sundaradnus.ca/portfolio">sundaradnus.ca</a>.</p>
+        <ol class="timeline">
+          <li><span class="when">2020 – now</span><div><h3>Senior Product Manager · LexisNexis Canada (RELX)</h3>
+            <ul>
+              <li>AI products for legal research: Lexis+ AI Canada, Lexis+ AI Security (US), Search+.</li>
+              <li>LLM champion inside the company: workshops, documentation and tools colleagues use every day.</li>
+              <li>Built the measurement frameworks the Canadian product organization runs on; mentor PMs through the RELX Product Excellence program.</li>
+            </ul></div></li>
+          <li><span class="when">2009 – 2020</span><div><h3>Senior Consultant to Senior Product Manager · Cognizant, for LexisNexis</h3>
+            <ul>
+              <li>Shipped the Lexis platform's first RESTful web services and content APIs; the API line became its own business.</li>
+              <li>Led the first iterations of the CourtLink migration; product lead for SmartWatch, a supplier risk-monitoring tool.</li>
+              <li>Started as senior engineer and Scrum Master on Firm Manager, a practice-management SaaS.</li>
+            </ul></div></li>
+          <li><span class="when">2004 – 2009</span><div><h3>Developer to Technical Project Manager · NTT Data (formerly Keane), for Unisys</h3>
+            <ul>
+              <li>Banking check-processing and payment software, including image exchange under the US Check 21 Act.</li>
+              <li>Mapped how a conventional and an Islamic bank differ, for an implementation in Kuala Lumpur.</li>
+            </ul></div></li>
+        </ol>
+      </section>
+
+      <section id="community">
+        <div class="cols">
+          <div>
+            <h2>Community and writing</h2>
+            <ul class="plain">
+              <li>Co-founder of the <strong>Stouffville AI/LLM community group</strong>.</li>
+              <li>Speaker at <strong>ProductCon Toronto</strong>, the <strong>RELX Search Summit</strong> and <strong>CALL</strong>.</li>
+              <li>Mentor with the <strong>Human Feedback Foundation</strong>.</li>
+              <li>On <a href="https://radnus.substack.com/">Substack</a>: “Dogfooding in LegalTech”, “Building an AI-Powered Portfolio Terminal”, “From Demo Day to Development”, and more.</li>
+              <li>Recognised with the <strong>AI Trailblazer</strong> award (2025), among others at RELX.</li>
+            </ul>
+          </div>
+          <div>
+            <h2>Learning</h2>
+            <ul class="plain">
+              <li><strong>B.Eng., Electrical and Electronics Engineering</strong>, University of Madras.</li>
+              <li><strong>Paralegal Certificate</strong>, Seneca Polytechnic: taken to feel my legal customers' workflows first-hand.</li>
+              <li><strong>Machine Learning</strong> (Andrew Ng), Coursera / Stanford.</li>
+              <li>Currently: whatever my son is studying, apparently.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>Sundararajan Mohan · Ontario, Canada</span>
+      <span><a href="https://www.sundaradnus.ca/">sundaradnus.ca</a> · <a href="https://github.com/jalabulajunx">github.com/jalabulajunx</a></span>
+    </footer>
+  </div>
+  <script>
+    function setScheme(choice) {
+      if (choice === "light" || choice === "dark") document.documentElement.dataset.theme = choice;
+      else delete document.documentElement.dataset.theme;
+      try { localStorage.setItem("sm-scheme", choice); } catch {}
+      for (const b of document.querySelectorAll(".scheme button")) b.setAttribute("aria-pressed", String(b.dataset.scheme === choice));
+    }
+    let saved = "auto";
+    try { saved = localStorage.getItem("sm-scheme") || "auto"; } catch {}
+    setScheme(saved);
+    for (const b of document.querySelectorAll(".scheme button")) b.addEventListener("click", () => setScheme(b.dataset.scheme));
+  </script>
+</body>
+</html>
